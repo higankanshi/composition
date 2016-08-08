@@ -1,25 +1,54 @@
-# Windows.UI.Composition
-We are pleased to announce that as of Windows 10 Build 10586 and SDK Version 1511 the Windows.UI.Composition API is now fully public. Many thanks to all of those whocontibuted feedback to on the API during it;s preview phase to make it that much better.
+# Windows UI Dev Labs
+Welcome to the Windows UI Dev Labs repository for the latest code samples, demos, and developer feedback for building beautiful and engaging Universal Windows Platform apps using Windows UI.
 
-This repository contains code samples created with the  <a href=http://go.microsoft.com/fwlink/?LinkID=699334&clcid=0x409>Windows.UI.Composition</a> WinRT API. Samples contained in this repository created by the Microsoft Composition team or contributors, are offered for use by the community via the MIT license. All code sample submissions are subject to review by the Microsoft Composition team before final publishing on the hub. 
+The code samples and demos are targeted for developers who are interested in experimenting, building, and providing feedback on the latest flighting Windows UI APIs. 
 
-<b>MSDN Developer Center Overview Documentation</b><br>
-To get a feel for what you can do with the new API visit our MSDN Windows Developer Center <a href=http://go.microsoft.com/fwlink/?LinkID=699334&clcid=0x409>Overview Documentation</a> including the following topics:
-<ul>
-<li><a href=http://go.microsoft.com/fwlink/?LinkID=699335&clcid=0x409>Visual Tree Basics</a>
-<li><a href=http://go.microsoft.com/fwlink/?LinkID=692060&clcid=0x409>Animation System Overview</a> 
-<li><a href=http://go.microsoft.com/fwlink/?LinkID=692063&clcid=0x409>Effects System Overview</a>
-<li><a href=http://go.microsoft.com/fwlink/?LinkID=692061&clcid=0x409>Direct3D and Direct2D Interop</a> 
-</ul>
+We are focused on creating a place where we can experiment, inpsire, and receive developer feedback on:
+- Flighting APIs for Windows UI
+- Testing out new UX patterns
+- Early reference implementations and prototypes
+- Inspiring demonstrations of the Windows UI API  
 
-<b>MSDN Documentation</b><br>
-<a href=http://go.microsoft.com/fwlink/?LinkID=534726&clcid=0x409>Documentation for Windows.UI.Composition</a> is availible on MSDN. This is subject to updates and revisions as the preview API evolves from our continued work and your feedback.
+If you are a developer getting familiar with the [Windows.UI.Xaml](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.aspx) and [Windows.UI.Composition](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.composition.aspx) APIs, want to build beautiful UI experiences, and don't mind a few bugs here and there; then, this is the place for you. 
 
-For another great overview of the API we reccomend Kenny Kerr’s excellent MSDN Article on our new API, <a href=https://msdn.microsoft.com/en-us/magazine/mt590968>Graphics and Animation - Windows Composition Turns 10</a>.
+We also want to see what inspiring UX you're building and you can reach out to us on Twitter [@WindowsUI](https://twitter.com/windowsui).
 
-You can find a full list of changes made to the API from it's preview version to it's public version <a href=http://go.microsoft.com/fwlink/?LinkID=692067&clcid=0x409>here.</a>
+We're excited to see what you can you make with Windows UI.
 
-<b>Reach us on Twitter @wincomposition</b>
+## Project Structure
+The following outlines the key folders for the project.
 
+### Demos
+The Demos folder contains standalone code demos that are focused on combining many concepts and feature sets in the Windows UI space to demonstrate interesting user experience. The code is to help inspire and prototype novel and engaging user experiences.
 
+### Sample Gallery
+The Sample Gallery is an application itself that contains code examples of flighting various Windows UI APIs. The Sample Gallery uses conditional compilation to only compile the code samples that are available in your target SDK.
 
+By default the Sample Gallery is set to the last major platform release, however, you can retarget the Sample Gallery project file to the latest SDK that you have installed to see more samples light up.
+
+### Samples Common
+These are early reference implementations, prototypes, and utilties the team has built over the course of developing our demos and code examples. These are code examples of common code that's shared across code samples and demos.
+
+## Developing and Building with Windows UI
+These samples require Visual Studio 2015 and the Windows Software Development Kit (SDK) for Windows 10 to build, test, and deploy your Universal Windows apps. 
+
+[Get a free copy of Visual Studio 2015 Community Edition with support for building Universal Windows apps](http://go.microsoft.com/fwlink/?LinkID=280676)
+
+Additionally, to stay on top of the latest updates to Windows and the development tools, become a Windows Insider by joining the Windows Insider Program.
+
+[Become a Windows Insider](https://insider.windows.com/)
+
+We will be frequently iterating and updating code samples in this repository, so it's recommended you become an Insider, follow us on Twitter for the latest updates, and provide feedback in the Issue section. 
+
+##Learning More about Windows UI APIs
+Want to learn about all the exciting features that the Windows UI APIs can bring to your app? Check out the BUILD 2016 session recordings for Windows UI.
+
+[List of talks for BUILD 2016 that can be watched on Channel9](https://github.com/Microsoft/WindowsUIDevLabs/wiki/Windows-UI-Newsletter---May-Edition#build-sessions)
+
+There are also a number of blogs and blog posts from members of our community that go into the specifics of using the Windows.UI.Composition APIs. A few of them are listed below.
+- Kenny Kerr has [a detailed introduction to graphics and animation using the Windows Composition APIs](https://msdn.microsoft.com/en-us/magazine/mt590968) in MSDN magazine
+- Mike Taulty has [a number of blog posts](https://mtaulty.com/category/composition/) experimenting with the Windows.UI.Composition APIs, with topics relating to effects and performance.
+- Microsoft Windows UI team member Robert Mikhayelyan talks about UWP development and the basics of the Composition APIs in [his personal blog](http://blog.robmikh.com/).
+- XAML Brewer Diederik Krols has many [in-depth posts on Effects and custom Windows UI controls](https://xamlbrewer.wordpress.com/category/composition-api/).
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
